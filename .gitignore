@@ -1,4 +1,5 @@
 sstates
+erase.me
 ePSXe.exe
-*.bin
+isos/*.bin
 *.dll

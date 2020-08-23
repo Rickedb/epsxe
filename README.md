@@ -1,150 +1,75 @@
-# epsxe
-
-(DOCUMENTED)
-
-Â· -adsrtrick...................Returns a random ADSR value. (Unusable)
-
-Â· -analog......................Enables Analog Pad Emulation.
-
-Â· -anamous.....................Enables Analog Pad Emulation via Mouse.
-
-(Unusable)
-
-Â· -bios <file>.................Loads the specified PlayStation BIOS
-
-file.
-
-Â· -c...........................Enables the Dynarec core.* (Unusable)
-
-Â· -cddmairq3...................Enables CD-ROM IRQ3 in DMA.**
-
-(Unusable)
-
-Â· -cdfast......................Enables Fast CD-ROM Emulation.
-
-(Unusable)
-
-Â· -cdrom <letter>..............Selects a CD-ROM Drive Letter.
-
-(Unusable)
-
-Â· -cdslow......................Enables Slow CD-ROM Emulation.
-
-(Unusable)
-
-Â· -cdtiming....................Enables Accurate CD-ROM Timing.
-
-(Unusable)
-
-Â· -debug.......................Enables Debugging (only in betas!)
-
-(Unusable)
-
-Â· -dmairqclear.................Forces DMA IRQ to always be cleared.
-
-(Unusable)
-
-Â· -f...........................Disables BIOS Logo. (Fast Boot)
-
-Â· -ff9pal......................Enables Final Fantasy IX PAL cheat.
-
-Â· -fl..........................Enables the internal framelimiter.**
-
-Â· -forcepad....................Forces SIO IRQ to always be enabled.
-
-Â· -forcespu....................Forces SPU IRQ to always be enabled.
-
-Â· -gun.........................Enables Namco Gun Emulation.**
-
-Â· -h...........................Displays some (not all) command-line
-
-switches. (???)
-
-Â· -hdev........................Displays a list of debug options. (???)
-
-Â· -help........................Displays some (not all) command-line
-
-switches.(???)
-
-Â· -i...........................Loads the Interpreter core.*
-
-Â· -legaia......................Enables Legend of Legaia cheat.
-
-Â· -lib.........................Loads libpsx.exe. (Unusable)
-
-Â· -loadbin <file>..............Loads a specified ISO image file.
-
-Â· -loadcheat <file>............Loads a specified .cht file.
-
-Â· -loadfake....................Loads a fake file.****
-
-Â· -loadmemc0 <file>............Loads a specified memory card file in
-
-the first slot (0).
-
-Â· -loadmemc1 <file>............Loads a specified memory card file in
-
-the second slot (1).
-
-Â· -mouse.......................Enables Mouse Emulation.
-
-Â· -noaudiocd...................Disables CDDA.
-
-Â· -noauto......................Disables automatically applied patches.
-
-Â· -nocd........................Disables CD-ROM Emulation.
-
-Â· -nocdcmd11...................Disables CD-ROM command 11. (Unusable)
-
-Â· -nocdstatus..................Changes some CD-ROM status outputs.
-
-Â· -nocdrtstatus................Disables CD-ROM RT status. (Unusable)
-
-Â· -nogui.......................Runs ePSXe without the GUI.
-
-Â· -nolog.......................Disables log files.
-
-Â· -nomdec......................Disables MDEC.
-
-Â· -nomdectiming................Disables MDEC Timing.
-
-Â· -nomemcard...................Disables Memory Card Emulation.
-
-Â· -noseekinxa..................Disables seeking during XA playback.
-
-(Unusable)
-
-Â· -nosound.....................Disables Sound Emulation.
-
-Â· -p <num>.....................Adds penalty cycles to memory
-
-access.*****
-
-Â· -paddual.....................Enables a pad workaround* (Unusable)
-
-Â· -savefake <file>.............Saves a fake file.****
-
-Â· -ssv0........................Creates savestates compatible with
-
-ePSXe v1.4.0
-
-Â· -v...........................Shows the current version of ePSXe
-
-(???)
-
-Â· -xaread......................Enables XA Read.
-
-Â· -xasound.....................Enables XA Sound Emulation.
-
-Â· -[psx exe]...................Runs the specified PSX Executable (can
-
-be a .pll, zipped)
-
-(UNDOCUMENTED)
-
-. -fastboot....................Disables BIOS Logo. (Fast Boot)
-
-. -slowboot....................Enables BIOS Logo. (Slow Boot)
-
-
-Ref: https://www.gameex.info/forums/topic/19-all-epsxe-command-line-options-attached/
+# ePSXe
+
+This is my personal setup for ePSXe. 
+
+## ePSXe CLI options
+
+- `-adsrtrick` =>  Returns a random ADSR value. 
+- `-analog` => Enables Analog Pad Emulation.
+- `-anamous` => Enables Analog Pad Emulation via Mouse.
+- `-bios <file>` => Loads the specified PlayStation BIOS file.
+- `-c` => Enables the Dynarec core.
+- `-cddmairq3` => Enables CD-ROM IRQ3 in DMA.
+- `-cdfast` => Enables Fast CD-ROM Emulation.
+- `-cdrom <letter>` => Selects a CD-ROM Drive Letter.
+- `-cdslow` => Enables Slow CD-ROM Emulation.
+- `-cdtiming` => Enables Accurate CD-ROM Timing.
+- `-debug` => Enables Debugging (only in betas!).
+- `-dmairqclear` => Forces DMA IRQ to always be cleared.
+- `-f` => Disables BIOS Logo. (Fast Boot)
+- `-ff9pal` => Enables Final Fantasy IX PAL cheat.
+- `-fl` => Enables the internal framelimiter.**
+- `-forcepad` => Forces SIO IRQ to always be enabled.
+- `-forcespu` => Forces SPU IRQ to always be enabled.
+- `-gun` => Enables Namco Gun Emulation.**
+- `-h` => Displays some (not all) command-line switches. (???)
+- `-hdev` => Displays a list of debug options. (???)
+- `-help` => Displays some (not all) command-line switches.(???)
+- `-i` => Loads the Interpreter core.*
+- `-legaia` => Enables Legend of Legaia cheat.
+- `-lib` => Loads libpsx.exe. (Unusable)
+- `-loadbin <file>` => Loads a specified ISO image file.
+- `-loadcheat <file>` => Loads a specified .cht file.
+- `-loadfake` => Loads a fake file.****
+- `-loadmemc0 <file>` => Loads a specified memory card file in the first slot (0).
+- `-loadmemc1 <file>` => Loads a specified memory card file in the second slot (1).
+- `-mouse` => Enables Mouse Emulation.
+- `-noaudiocd` => Disables CDDA.
+- `-noauto` => Disables automatically applied patches.
+- `-nocd` => Disables CD-ROM Emulation.
+- `-nocdcmd11` => Disables CD-ROM command 11. (Unusable)
+- `-nocdstatus` => Changes some CD-ROM status outputs.
+- `-nocdrtstatus` => Disables CD-ROM RT status. (Unusable)
+- `-nogui` => Runs ePSXe without the GUI.
+- `-nolog` => Disables log files.
+- `-nomdec` => Disables MDEC.
+- `-nomdectiming` => Disables MDEC Timing.
+- `-nomemcard` => Disables Memory Card Emulation.
+- `-noseekinxa` => Disables seeking during XA playback.
+- `-nosound` => Disables Sound Emulation.
+- `-p <num>` => Adds penalty cycles to memory access.*****
+- `-paddual` => Enables a pad workaround* (Unusable)
+- `-savefake <file>` => Saves a fake file.****
+- `-ssv0` => Creates savestates compatible with
+
+### ePSXe v1.4.0
+
+- `-v` => Shows the current version of ePSXe
+- `-xaread` => Enables XA Read.
+- `-xasound` => Enables XA Sound Emulation.
+- `-[psx exe]` => Runs the specified PSX Executable (can be a .pll, zipped)
+- `-fastboot` => Disables BIOS Logo. (Fast Boot)
+- `-slowboot` => Enables BIOS Logo. (Slow Boot)
+
+> Reference: https://www.gameex.info/forums/topic/19-all-epsxe-command-line-options-attached/
+
+# Adding game to Steam as non-steam games
+
+1. Open Steam and click **ADD A GAME** > **Add a Non-Steam Game**
+2. Browse to your ePSXe folder and select `ePSXe.exe`
+3. Right click on ePSXe game added to your game list
+4. Click **Properties...**
+5. Click **Set Lauch Options...**
+6. Set `-loadbin <PATH_TO_BIN> -fastboot -nogui`
+7. Customize your icons and background images for better looking
+8. Hit play and have fun!
